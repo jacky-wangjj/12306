@@ -1,0 +1,15 @@
+form_data:
+    username: xxxxxxxxx@qq.com    #12306账号
+    password: xxxxxxxxx   #12306密码
+    appid: otn
+
+ticket_info:
+    train_date: 2019-04-21       #乘车日期
+    from_station: 北京                    #起始站
+    to_station: 石家庄                   #终点站
+    train_times: 06:00-12:00       #购票时间段以-隔开
+    seat_type: 二等座                #座位类型，为方便，暂时只支持一种类型
+    passengers: 乘车人                #乘车人，为区别中英文符号，以空格隔开
+
+email_address:
+  - 'xxxxxxxx@qq.com'           #设置邮箱提醒
